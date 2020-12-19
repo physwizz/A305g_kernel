@@ -1029,7 +1029,11 @@ CONFIG_NET_SCH_FIFO=y
 # CONFIG_HSR is not set
 # CONFIG_NET_SWITCHDEV is not set
 # CONFIG_NET_L3_MASTER_DEV is not set
+<<<<<<< HEAD
 # CONFIG_KNOX_NCM is not set
+=======
+CONFIG_KNOX_NCM=y
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_RPS=y
 CONFIG_RFS_ACCEL=y
 CONFIG_XPS=y
@@ -1304,10 +1308,14 @@ CONFIG_SCSC_PLATFORM=y
 # CONFIG_SCSC_CLK20MHZ is not set
 CONFIG_SCSC_MMAP=y
 # CONFIG_SCSC_DBG_SAMPLER is not set
+<<<<<<< HEAD
 CONFIG_SCSC_DEBUG=y
 CONFIG_SCSC_DEBUG_COMPATIBILITY=y
 CONFIG_SCSC_STATIC_RING=y
 CONFIG_SCSC_STATIC_RING_SIZE=4194304
+=======
+# CONFIG_SCSC_DEBUG is not set
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_SCSC_CHV_SUPPORT is not set
 # CONFIG_SCSC_GPR4_CON_DEBUG is not set
 CONFIG_SCSC_BUILD_TYPE="User"
@@ -1456,7 +1464,11 @@ CONFIG_DM_CRYPT=y
 # CONFIG_DM_DELAY is not set
 CONFIG_DM_UEVENT=y
 # CONFIG_DM_FLAKEY is not set
+<<<<<<< HEAD
 # CONFIG_DM_VERITYis not set
+=======
+# CONFIG_DM_VERITY is not set
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 CONFIG_DM_VERITY_FEC=y
 # CONFIG_DM_SWITCH is not set
 # CONFIG_DM_LOG_WRITES is not set
@@ -5092,6 +5104,10 @@ CONFIG_SECURITY_SELINUX_CHECKREQPROT_VALUE=0
 # CONFIG_INTEGRITY_SIGNATURE is not set
 # CONFIG_INTEGRITY_ASYMMETRIC_KEYS is not set
 # CONFIG_INTEGRITY_AUDIT is not set
+<<<<<<< HEAD
+=======
+
+>>>>>>> 86526b1f6... Overclocked GPU using DTBO originally authored by Geckyn and modified by Chateu." --author="geckyn <geckyn@gmail.com>
 # CONFIG_IMA is not set
 # CONFIG_EVM is not set
 CONFIG_TZ_ICCC=y
